@@ -1,0 +1,92 @@
+body{
+    background-color: #222;
+}
+
+#loginWrapper, #signWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.logSinHead{
+    color: white; 
+    text-shadow: 10px 10px 5px black;
+    font-size: 3em;
+    font-family: 'Monoton', cursive;
+    padding: 0px;
+}
+
+.loginform
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 23em;
+    width: 45em;
+    margin-top:8em;
+    margin-bottom:30px;
+    padding: 0px;
+    background-color: rgba(114, 5, 60, 0.8);
+    box-shadow: 25px 0 20px -15px rgba(14, 12, 13, 0.8), -25px 0 20px -15px rgba(14, 12, 13, 0.8);
+    border-radius: 40px;
+    border: 2px solid rgba(45, 11, 28, 0.8);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input::placeholder{
+    color: rgba(144, 12, 63, .4);
+}
+
+input{
+    height: 2.5em;
+    width: 25em;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    border: 5px outset black;
+    box-shadow: 8px 8px 5px rgba(55, 3, 29, 0.8);
+    font-weight: bold;
+    outline: none;
+}
+input:hover{
+    background-color: rgb(236, 186, 205);
+}
+form input:first-of-type{
+    margin-top: 2em;
+}
+
+form button{
+    height: 2.5em;
+    width: 8em;
+    border-radius: 20px;
+    background-color: rgba(55, 3, 29, 0.8);
+    border: 2px solid var(--glow-color);
+    color: white;
+    font-weight: bold;
+    margin-top: 1em;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+form button:hover{
+    background-color: var(--glow-color);
+}
+form button:active{
+    box-shadow: 5px 5px 3px 1px rgba(68, 2, 88, 0.2);
+    transform: translate(3px, 3px);
+    font-style: italic;
+}
+
+input:required:invalid{
+    border-left: 10px solid red;
+}
+input:required:valid{
+    border-left: 10px solid rgb(41, 192, 41);
+}

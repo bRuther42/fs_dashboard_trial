@@ -1,0 +1,71 @@
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #2B0001;
+    box-shadow: 0px 0px 0px rgba(118, 10, 32, 0.5), 
+    0px 2px 4px rgba(118, 10, 32, 0.5), 
+    0px 4px 8px rgba(118, 10, 32, 0.5), 
+    0px 15px 16px rgba(118, 10, 32, 0.5);
+    z-index: 1;
+}
+
+.navlink{
+    font-size: 1.2em;
+    margin-left:8px;
+    margin-right:8px;
+    text-decoration: none;
+    color: rgb(144, 12, 63);
+    font-weight: bold;
+    text-shadow: 7px 5px 3px rgba(0, 0, 0, 0.7);
+}
+
+.header{
+    display:flex;
+    justify-content: space-around;
+    background: rgb(144, 12, 63);    
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.7);
+    position: relative;
+    z-index: 100;
+}
+.header span{
+    font: bold 6em 'Bebas Neue', cursive;
+    background-color: rgba(104, 10, 50, 1);
+    color: transparent;
+    text-shadow: 2px 2px 3px
+    rgba(144, 12, 63, .7);
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+}
+
+.authnav{
+    font-size:13pt;    
+    font-family: 'Bebas Neue', cursive;
+}
+
+.authNavLinks{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.homepage{
+    background: url("/public/room.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 79vh;
+    font-size:20pt;    
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.homepage p{
+    color: white;
+    font-style: italic;
+}
+
+

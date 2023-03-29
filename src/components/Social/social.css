@@ -1,0 +1,41 @@
+#social-div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.social-list{
+    width: 100%;
+    height: 4em;
+    margin: 0;
+    list-style-type: none;
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.social-list img{
+    height: 3em;
+    width: 3em;
+}
+
+#social-button{
+    padding: 0;
+    background-color: transparent;
+    height: 4em;
+    width: 4em;
+    border: none;
+    transition: transform 0.5s;
+}
+#social-button:hover{
+    transform: translateX(15px);
+}
+
+#social-button img{
+    height: 3em;
+    width: 3em;
+    padding: 0;
+    margin: 0;
+}
+

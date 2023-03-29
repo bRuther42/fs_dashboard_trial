@@ -1,0 +1,13 @@
+#archive-wrapper{
+    height: 150vh;
+    background-color: rgb(13, 13, 13);
+}
+
+h1{
+    color: white;
+}
+
+#yearly{
+    color: white;
+    font-size: .7em;
+}

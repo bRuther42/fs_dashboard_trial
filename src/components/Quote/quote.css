@@ -1,0 +1,59 @@
+#quoteWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#title{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.radioWrap{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h5{
+    font-size: 1.1em;
+}
+#quote-things{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+h6:nth-of-type(1){
+    font-size: 1em;
+}
+
+h6:nth-of-type(2){
+    font-size: .8em;
+    font-style: italic;
+}
+
+#api-button{
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 4em;
+    width: 4em;
+    transform: translateX(-15px);
+    transition: transform 0.5s;
+}
+#api-button:hover{
+    transform: translateX(10px);
+}
+#api-button img{
+    height: 3em;
+    width: 3em;
+}
+

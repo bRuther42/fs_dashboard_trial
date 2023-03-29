@@ -1,0 +1,47 @@
+#apod-wrap{
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#apod-wrap h2{
+    margin-top: 10px;
+    font-size: 1.6em;
+}
+#apod-wrap h3{
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--glow-color);
+    transform: translateY(10px);
+}
+
+#apod-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#apod-map img{
+    height: 40vh;
+    width: auto;
+}
+#apod-map span:nth-of-type(1){
+    font-size: 1.1em;
+    font-style: italic;
+    width: 60%;
+    transform: translateY(10px);
+    border-color: var(--glow-color);
+    border-bottom-style: solid;
+}
+#apod-map span:nth-of-type(3){
+    font-size: .8em;
+    font-weight: 500;
+}
+
